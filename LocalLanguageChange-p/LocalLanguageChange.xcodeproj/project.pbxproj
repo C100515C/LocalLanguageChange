@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		339307A61D66CAD500683ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 339307A51D66CAD500683ECA /* main.m */; };
+		339307A91D66CAD500683ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 339307A81D66CAD500683ECA /* AppDelegate.m */; };
+		339307AC1D66CAD500683ECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339307AB1D66CAD500683ECA /* ViewController.m */; };
+		339307AF1D66CAD500683ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339307AD1D66CAD500683ECA /* Main.storyboard */; };
+		339307B11D66CAD500683ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339307B01D66CAD500683ECA /* Assets.xcassets */; };
+		339307B41D66CAD500683ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339307B21D66CAD500683ECA /* LaunchScreen.storyboard */; };
+		339307BF1D66CAD500683ECA /* LocalLanguageChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 339307BE1D66CAD500683ECA /* LocalLanguageChangeTests.m */; };
+		339307CA1D66CAD500683ECA /* LocalLanguageChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 339307C91D66CAD500683ECA /* LocalLanguageChangeUITests.m */; };
+		339307DB1D66CCAA00683ECA /* Language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 339307DD1D66CCAA00683ECA /* Language.strings */; };
+		339307E21D66D32900683ECA /* testModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 339307E11D66D32900683ECA /* testModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339307BB1D66CAD500683ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339307991D66CAD500683ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339307A01D66CAD500683ECA;
+			remoteInfo = LocalLanguageChange;
+		};
+		339307C61D66CAD500683ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339307991D66CAD500683ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339307A01D66CAD500683ECA;
+			remoteInfo = LocalLanguageChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		339307A11D66CAD500683ECA /* LocalLanguageChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalLanguageChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339307A51D66CAD500683ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		339307A71D66CAD500683ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		339307A81D66CAD500683ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		339307AA1D66CAD500683ECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		339307AB1D66CAD500683ECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		339307AE1D66CAD500683ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		339307B01D66CAD500683ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339307B31D66CAD500683ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		339307B51D66CAD500683ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339307BA1D66CAD500683ECA /* LocalLanguageChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalLanguageChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339307BE1D66CAD500683ECA /* LocalLanguageChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalLanguageChangeTests.m; sourceTree = "<group>"; };
+		339307C01D66CAD500683ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339307C51D66CAD500683ECA /* LocalLanguageChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalLanguageChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339307C91D66CAD500683ECA /* LocalLanguageChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalLanguageChangeUITests.m; sourceTree = "<group>"; };
+		339307CB1D66CAD500683ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339307D71D66CC4300683ECA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		339307D81D66CC4300683ECA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		339307DC1D66CCAA00683ECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Language.strings; sourceTree = "<group>"; };
+		339307DE1D66CCAC00683ECA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Language.strings"; sourceTree = "<group>"; };
+		339307DF1D66CEE400683ECA /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = LocalLanguageChange/Constant.h; sourceTree = "<group>"; };
+		339307E01D66D32900683ECA /* testModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testModel.h; sourceTree = "<group>"; };
+		339307E11D66D32900683ECA /* testModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3393079E1D66CAD500683ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339307B71D66CAD500683ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339307C21D66CAD500683ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		339307981D66CAD500683ECA = {
+			isa = PBXGroup;
+			children = (
+				339307DF1D66CEE400683ECA /* Constant.h */,
+				339307DD1D66CCAA00683ECA /* Language.strings */,
+				339307A31D66CAD500683ECA /* LocalLanguageChange */,
+				339307BD1D66CAD500683ECA /* LocalLanguageChangeTests */,
+				339307C81D66CAD500683ECA /* LocalLanguageChangeUITests */,
+				339307A21D66CAD500683ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		339307A21D66CAD500683ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339307A11D66CAD500683ECA /* LocalLanguageChange.app */,
+				339307BA1D66CAD500683ECA /* LocalLanguageChangeTests.xctest */,
+				339307C51D66CAD500683ECA /* LocalLanguageChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339307A31D66CAD500683ECA /* LocalLanguageChange */ = {
+			isa = PBXGroup;
+			children = (
+				339307A71D66CAD500683ECA /* AppDelegate.h */,
+				339307A81D66CAD500683ECA /* AppDelegate.m */,
+				339307AA1D66CAD500683ECA /* ViewController.h */,
+				339307AB1D66CAD500683ECA /* ViewController.m */,
+				339307E01D66D32900683ECA /* testModel.h */,
+				339307E11D66D32900683ECA /* testModel.m */,
+				339307AD1D66CAD500683ECA /* Main.storyboard */,
+				339307B01D66CAD500683ECA /* Assets.xcassets */,
+				339307B21D66CAD500683ECA /* LaunchScreen.storyboard */,
+				339307B51D66CAD500683ECA /* Info.plist */,
+				339307A41D66CAD500683ECA /* Supporting Files */,
+			);
+			path = LocalLanguageChange;
+			sourceTree = "<group>";
+		};
+		339307A41D66CAD500683ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				339307A51D66CAD500683ECA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		339307BD1D66CAD500683ECA /* LocalLanguageChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				339307BE1D66CAD500683ECA /* LocalLanguageChangeTests.m */,
+				339307C01D66CAD500683ECA /* Info.plist */,
+			);
+			path = LocalLanguageChangeTests;
+			sourceTree = "<group>";
+		};
+		339307C81D66CAD500683ECA /* LocalLanguageChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339307C91D66CAD500683ECA /* LocalLanguageChangeUITests.m */,
+				339307CB1D66CAD500683ECA /* Info.plist */,
+			);
+			path = LocalLanguageChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339307A01D66CAD500683ECA /* LocalLanguageChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339307CE1D66CAD500683ECA /* Build configuration list for PBXNativeTarget "LocalLanguageChange" */;
+			buildPhases = (
+				3393079D1D66CAD500683ECA /* Sources */,
+				3393079E1D66CAD500683ECA /* Frameworks */,
+				3393079F1D66CAD500683ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalLanguageChange;
+			productName = LocalLanguageChange;
+			productReference = 339307A11D66CAD500683ECA /* LocalLanguageChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339307B91D66CAD500683ECA /* LocalLanguageChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339307D11D66CAD500683ECA /* Build configuration list for PBXNativeTarget "LocalLanguageChangeTests" */;
+			buildPhases = (
+				339307B61D66CAD500683ECA /* Sources */,
+				339307B71D66CAD500683ECA /* Frameworks */,
+				339307B81D66CAD500683ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339307BC1D66CAD500683ECA /* PBXTargetDependency */,
+			);
+			name = LocalLanguageChangeTests;
+			productName = LocalLanguageChangeTests;
+			productReference = 339307BA1D66CAD500683ECA /* LocalLanguageChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339307C41D66CAD500683ECA /* LocalLanguageChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339307D41D66CAD500683ECA /* Build configuration list for PBXNativeTarget "LocalLanguageChangeUITests" */;
+			buildPhases = (
+				339307C11D66CAD500683ECA /* Sources */,
+				339307C21D66CAD500683ECA /* Frameworks */,
+				339307C31D66CAD500683ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339307C71D66CAD500683ECA /* PBXTargetDependency */,
+			);
+			name = LocalLanguageChangeUITests;
+			productName = LocalLanguageChangeUITests;
+			productReference = 339307C51D66CAD500683ECA /* LocalLanguageChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339307991D66CAD500683ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chenchen;
+				TargetAttributes = {
+					339307A01D66CAD500683ECA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					339307B91D66CAD500683ECA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 339307A01D66CAD500683ECA;
+					};
+					339307C41D66CAD500683ECA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 339307A01D66CAD500683ECA;
+					};
+				};
+			};
+			buildConfigurationList = 3393079C1D66CAD500683ECA /* Build configuration list for PBXProject "LocalLanguageChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 339307981D66CAD500683ECA;
+			productRefGroup = 339307A21D66CAD500683ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339307A01D66CAD500683ECA /* LocalLanguageChange */,
+				339307B91D66CAD500683ECA /* LocalLanguageChangeTests */,
+				339307C41D66CAD500683ECA /* LocalLanguageChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3393079F1D66CAD500683ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339307DB1D66CCAA00683ECA /* Language.strings in Resources */,
+				339307B41D66CAD500683ECA /* LaunchScreen.storyboard in Resources */,
+				339307B11D66CAD500683ECA /* Assets.xcassets in Resources */,
+				339307AF1D66CAD500683ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339307B81D66CAD500683ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339307C31D66CAD500683ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3393079D1D66CAD500683ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339307AC1D66CAD500683ECA /* ViewController.m in Sources */,
+				339307E21D66D32900683ECA /* testModel.m in Sources */,
+				339307A91D66CAD500683ECA /* AppDelegate.m in Sources */,
+				339307A61D66CAD500683ECA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339307B61D66CAD500683ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339307BF1D66CAD500683ECA /* LocalLanguageChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339307C11D66CAD500683ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339307CA1D66CAD500683ECA /* LocalLanguageChangeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339307BC1D66CAD500683ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339307A01D66CAD500683ECA /* LocalLanguageChange */;
+			targetProxy = 339307BB1D66CAD500683ECA /* PBXContainerItemProxy */;
+		};
+		339307C71D66CAD500683ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339307A01D66CAD500683ECA /* LocalLanguageChange */;
+			targetProxy = 339307C61D66CAD500683ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		339307AD1D66CAD500683ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339307AE1D66CAD500683ECA /* Base */,
+				339307D71D66CC4300683ECA /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		339307B21D66CAD500683ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339307B31D66CAD500683ECA /* Base */,
+				339307D81D66CC4300683ECA /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		339307DD1D66CCAA00683ECA /* Language.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339307DC1D66CCAA00683ECA /* en */,
+				339307DE1D66CCAC00683ECA /* zh-Hans */,
+			);
+			name = Language.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		339307CC1D66CAD500683ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339307CD1D66CAD500683ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339307CF1D66CAD500683ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocalLanguageChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LocalLanguageChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		339307D01D66CAD500683ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocalLanguageChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LocalLanguageChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		339307D21D66CAD500683ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocalLanguageChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LocalLanguageChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalLanguageChange.app/LocalLanguageChange";
+			};
+			name = Debug;
+		};
+		339307D31D66CAD500683ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocalLanguageChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LocalLanguageChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalLanguageChange.app/LocalLanguageChange";
+			};
+			name = Release;
+		};
+		339307D51D66CAD500683ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocalLanguageChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LocalLanguageChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocalLanguageChange;
+			};
+			name = Debug;
+		};
+		339307D61D66CAD500683ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocalLanguageChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.LocalLanguageChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocalLanguageChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3393079C1D66CAD500683ECA /* Build configuration list for PBXProject "LocalLanguageChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339307CC1D66CAD500683ECA /* Debug */,
+				339307CD1D66CAD500683ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339307CE1D66CAD500683ECA /* Build configuration list for PBXNativeTarget "LocalLanguageChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339307CF1D66CAD500683ECA /* Debug */,
+				339307D01D66CAD500683ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		339307D11D66CAD500683ECA /* Build configuration list for PBXNativeTarget "LocalLanguageChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339307D21D66CAD500683ECA /* Debug */,
+				339307D31D66CAD500683ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		339307D41D66CAD500683ECA /* Build configuration list for PBXNativeTarget "LocalLanguageChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339307D51D66CAD500683ECA /* Debug */,
+				339307D61D66CAD500683ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339307991D66CAD500683ECA /* Project object */;
+}
